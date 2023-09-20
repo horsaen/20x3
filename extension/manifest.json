@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "20x3",
+  "version": "1.0",
+  "description": "20-20-20 rule reminder",
+  "permissions": ["activeTab", "tabs"],
+  "icons": {
+    "48": "icons/eyeglasses.svg"
+  },
+  "browser_action": {
+    "default_icon": "icons/eyeglasses.svg",
+    "default_title": "20x3",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true,
+    "type": "module"
+  }
+}
